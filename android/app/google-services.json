@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "448224856968",
+    "firebase_url": "https://dream-smartlive-default-rtdb.firebaseio.com",
+    "project_id": "dream-smartlive",
+    "storage_bucket": "dream-smartlive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448224856968:android:f97a6307734458462fc83d",
+        "android_client_info": {
+          "package_name": "com.dreamapp.smartlive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448224856968-qlqcogol8btmi9igf3rim1sssgkq7k83.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dreamapp.smartlive",
+            "certificate_hash": "ea74c6a39ae5323291955ed579a508fd472fa585"
+          }
+        },
+        {
+          "client_id": "448224856968-q89458udc9puk3asglfk30q9ocudk2ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKtP5WeHVKwUdOJkdX5_Eef6FAgoolJss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448224856968-q89458udc9puk3asglfk30q9ocudk2ag.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "448224856968-e9sm48icrj5uv1ha16vogkdnb4b9q745.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dreamapp.smartlive"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
