@@ -1,15 +1,33 @@
 import 'package:flutter/material.dart';
 
-class SplashPage extends StatelessWidget {
+import '../utils/routes.dart';
+
+class SplashPage extends StatefulWidget {
   const SplashPage({Key? key}) : super(key: key);
+
+  @override
+  State<SplashPage> createState() => _SplashPageState();
+}
+
+class _SplashPageState extends State<SplashPage> {
+  @override
+  void initState() {
+    super.initState();
+    _navigateToHome();
+  }
+
+  _navigateToHome() async {
+    await Future.delayed(const Duration(milliseconds: 2000));
+    await Navigator.pushReplacementNamed(context, MyRoutes.loginNumberRoute);
+  }
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-        height: double.infinity,
-        width: double.infinity,
+        height: MediaQuery.of(context).size.height,
+        width: MediaQuery.of(context).size.width,
         child: FittedBox(
-            child: Image.asset('assets/thunderbackground.jpg'),
+            child: Image.asset('assets/images/splashscreen_image.png'),
             fit: BoxFit.cover));
   }
 }
