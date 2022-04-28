@@ -1,11 +1,6 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:http/http.dart' as http;
 import 'package:smartlive/main_screens/home_page.dart';
-import 'package:smartlive/utils/routes.dart';
-import '../widgets/snackbar.dart';
 
 // ignore: must_be_immutable
 class UserNewRegister extends StatefulWidget {
@@ -131,8 +126,8 @@ class _UserNewRegisterState extends State<UserNewRegister> {
       decoration: InputDecoration(
           suffixIcon: InkWell(
             child: (hide == false)
-                ? Icon(Icons.remove_red_eye)
-                : Icon(Icons.emergency),
+                ? const Icon(Icons.remove_red_eye)
+                : const Icon(Icons.emergency),
             onTap: () {
               setState(() {
                 if (hide == true) {
@@ -166,8 +161,8 @@ class _UserNewRegisterState extends State<UserNewRegister> {
           label: const Text("Enter Your Password"),
           suffixIcon: InkWell(
             child: (hide == false)
-                ? Icon(Icons.remove_red_eye)
-                : Icon(Icons.emergency),
+                ? const Icon(Icons.remove_red_eye)
+                : const Icon(Icons.emergency),
             onTap: () {
               if (hide == true) {
                 hide = false;
